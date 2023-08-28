@@ -1,0 +1,278 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+
+
+}
+
+h1 {
+    color: #8cc3f3;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+
+}
+
+h2 {
+
+    color: #8cc3f3;
+    font-family: 'Merriweather', serif;
+    font-size: 1.875rem;
+
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+
+
+h3 {
+    color: #0885f1;
+    font-family: 'Montserrat', sans-serif;
+    font: size 2.5em;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 80px;
+
+}
+
+.bottum-cloud {
+
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+
+.top-contaner {
+    background-color: #C9EEFF;
+    padding-top: 150px;
+
+}
+
+.middle-container {
+    margin: 80px 0;
+
+}
+
+.bottom-container {
+    background-color: #11d8d8;
+    padding: 50px 0 20px;
+
+}
+
+.mountain {
+    margin-bottom: -50px;
+}
+
+.h2font {
+    font-size: 2.5rem;
+}
+
+a {
+    color: #002122;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+.code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ice-cream {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+@media screen and(max-width:375px) {
+    .top-contaner {
+        background-color: #C9EEFF;
+        padding-top: 75px;
+
+    }
+
+    .top-cloud {
+        width: 50%;
+        position: absolute;
+        right: 150px;
+        top: 80px;
+
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .top-cloud {
+        position: absolute;
+        right: 50px;
+        top: 60px;
+    }
+
+    .mountain {
+        margin-bottom: -139px;
+    }
+}
+
+@media (max-width:400px) {
+    .top-cloud {
+        display: none;
+    }
+
+    .bottum-cloud {
+        display: none;
+    }
+
+    .mountain {
+        display: none;
+    }
+
+    .top-contaner {
+
+        background-color: #698998;
+        position: relative;
+        z-index: 2;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-radius: 0 0 30px 30px
+    }
+
+    .middle-container {
+        margin: -40px 0;
+        padding-top: 150px;
+        z-index: 1;
+        background-color: #dde4ea;
+
+
+    }
+
+    h1 {
+        color: #8cc3f3;
+        font-family: 'Sacramento', cursive;
+        font-size: 6rem;
+        margin: 50px auto 0 auto;
+        padding: 8px;
+
+    }
+
+    h2 {
+
+        color: #8cc3f3;
+        font-family: 'Merriweather', serif;
+        font-size: 1.9rem;
+
+    }
+
+    .intro {
+        width: 80%;
+        margin: auto;
+    }
+
+    .skill-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%
+    }
+
+    .skill-row h3 {
+        text-align: center;
+    }
+
+    .code {
+        width: 50%;
+        margin: -40px 0px 25px 0px;
+
+    }
+
+    .ice-cream {
+        position: relative;
+        right: 18px;
+        width: 50%;
+        margin-top: -40px;
+        margin-bottom: 20px
+    }
+
+    hr {
+        border: dotted #f8f8f8 6px;
+        border-bottom: none;
+        width: 20%;
+        margin: auto;
+    }
+
+    .skills {
+        margin-bottom: -70px
+    }
+
+    .contact-me {
+        padding-bottom: 100px;
+        width: 80%;
+        position: relative;
+        left: 27px;
+
+
+    }
+
+}
